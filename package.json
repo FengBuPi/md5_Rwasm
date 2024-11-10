@@ -30,5 +30,9 @@
 	"bugs": {
 		"url": "https://github.com/FengBuPi/md5_Rwasm/issues"
 	},
-	"license": "BSD-3-Clause"
+	"license": "BSD-3-Clause",
+	"dependencies": {
+		"md5_rwasm": "^1.0.0",
+		"md5": "^2.3"
+	}
 }

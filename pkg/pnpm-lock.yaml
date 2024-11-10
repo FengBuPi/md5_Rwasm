@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      md5_rwasm:
+        specifier: ^1.0.0
+        version: 1.0.0
+
+packages:
+
+  md5_rwasm@1.0.0:
+    resolution: {integrity: sha512-11uYezuOhc7+2zB3YvNoBiqGU+TFZ+JOR9KK13SEsgw1S3mM+xq6IHXsh/xCb3/lYAhb/xfS2PIlaiNHY1CZ2g==}
+
+snapshots:
+
+  md5_rwasm@1.0.0: {}

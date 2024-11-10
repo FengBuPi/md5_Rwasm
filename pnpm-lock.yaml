@@ -9,8 +9,11 @@ importers:
   .:
     dependencies:
       md5:
-        specifier: ^2.3.0
+        specifier: ^2.3
         version: 2.3.0
+      md5_rwasm:
+        specifier: ^1.0.0
+        version: 1.0.0
 
 packages:
 
@@ -26,6 +29,9 @@ packages:
   md5@2.3.0:
     resolution: {integrity: sha512-T1GITYmFaKuO91vxyoQMFETst+O71VUPEU3ze5GNzDm0OWdP8v1ziTaAEPUr/3kLsY3Sftgz242A1SetQiDL7g==}
 
+  md5_rwasm@1.0.0:
+    resolution: {integrity: sha512-11uYezuOhc7+2zB3YvNoBiqGU+TFZ+JOR9KK13SEsgw1S3mM+xq6IHXsh/xCb3/lYAhb/xfS2PIlaiNHY1CZ2g==}
+
 snapshots:
 
   charenc@0.0.2: {}
@@ -39,3 +45,5 @@ snapshots:
       charenc: 0.0.2
       crypt: 0.0.2
       is-buffer: 1.1.6
+
+  md5_rwasm@1.0.0: {}
