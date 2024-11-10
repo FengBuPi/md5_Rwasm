@@ -1,5 +1,24 @@
 {
+	"name": "md5-Rwasm",
+	"version": "1.0.0",
+	"description": "md5的RustWasm实现",
+	"author": "FengBuPi",
 	"dependencies": {
 		"md5": "^2.3.0"
+	},
+	"keywords": [
+		"md5",
+		"rust",
+		"WebAssembly",
+		"hash",
+		"encryption",
+		"message digest"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/FengBuPi/md5_Rwasm.git"
+	},
+	"bugs": {
+		"url": "https://github.com/FengBuPi/md5_Rwasm/issues"
 	}
 }
