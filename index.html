@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rwasm_md5测试</title>
+  <title>md5测试</title>
 </head>
 
 <body>
@@ -12,11 +12,11 @@
     import init, { md5 } from './pkg/md5_rwasm.js'
     {
       await init()
-      console.time("md5_Rwasm")
+      console.time("md5_rwasm")
       const data = 'hello world'
       const result = md5(data)
       console.log(result)
-      console.timeEnd("md5_Rwasm")
+      console.timeEnd("md5_rwasm")
     }
   </script>
 

@@ -1,5 +1,5 @@
 [package]
-name = "md5_Rwasm"
+name = "md5_rwasm"
 version = "0.1.0"
 edition = "2021"
 
