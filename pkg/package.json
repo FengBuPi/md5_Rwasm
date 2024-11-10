@@ -1,0 +1,32 @@
+{
+  "name": "md5-Rwasm",
+  "version": "0.1.0",
+  "description": "md5的RustWasm实现",
+  "author": "FengBuPi",
+  "type": "module",
+  "files": [
+    "md5_rwasm_bg.wasm",
+    "md5_rwasm.js",
+    "md5_rwasm.d.ts"
+  ],
+  "main": "md5_rwasm.js",
+  "types": "md5_rwasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ],
+  "keywords": [
+    "md5",
+    "rust",
+    "WebAssembly",
+    "hash",
+    "encryption",
+    "message digest"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FengBuPi/md5_Rwasm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FengBuPi/md5_Rwasm/issues"
+  }
+}
