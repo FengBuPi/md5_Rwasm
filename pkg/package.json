@@ -1,5 +1,5 @@
 {
-  "name": "md5-Rwasm",
+  "name": "md5_Rwasm",
   "version": "0.1.0",
   "description": "md5的RustWasm实现",
   "author": "FengBuPi",
